@@ -35,7 +35,7 @@ html, body {
     height: 100%;
     margin-left: auto;
 /*     max-height: 480px; */
-/*     border-radius: 20px; */
+    border-radius: 0px
     padding: 5px;
     margin: 0;
     }

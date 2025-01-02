@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+
+    <div class="hulsel">
+        <div class="titelhoofd">
+            <span>Pallet Checker</span>
+        </div>
+
+        <div class="calculatie">
+            <div class="blok-a">
+                <input type="number" id="input-a" placeholder="Hoeveelheid per container">
+            </div>
+            <div class="blok-b">
+                <input type="number" id="input-b" placeholder="Containers">
+                
+            </div>
+            <div class="blok-c">
+                <input type="number" id="input-c" placeholder="Hoeveelheid incomplete containers">                
+            </div>
+
+            <button class= "C-knop" onclick="refreshPage()"> C </button>
+
+            <div class="blok-d">
+                <div id="resultaat"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="actions.js"></script>
+</body>
+</html>
